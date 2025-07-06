@@ -1,20 +1,5 @@
 🕹️ 1. Number Guessing Game
 
-Description:
-A simple interactive game where the user must guess a randomly generated number within a limited number of attempts.
-
-Features:
-
-Random number generation (1–100)
-
-User input and feedback (too high/too low/correct)
-
-Maximum attempts allowed
-
-Option for multiple rounds
-
-Scoring system based on correct guesses
-
 How to Run:
 
 javac NumberGuessingGame.java
@@ -49,5 +34,72 @@ Enter your guess (1 attempts left): 83
 ❌ You've used all attempts. The correct number was: 82
 ✅ Your current score: 10
 Do you want to play another round? (yes/no): no
-
 🏁 Game Over. Your Final Score: 10
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+🕹️ 2. STUDENT GRADE CALCULATOR
+
+How to Run:
+
+javac NumberGuessingGame.java
+java NumberGuessingGame
+
+SAMPLE OUTPUT:
+
+📘 Student Grade Calculator
+Enter the number of subjects: 4
+Enter marks for Subject 1 (out of 100): 85
+Enter marks for Subject 2 (out of 100): 90
+Enter marks for Subject 3 (out of 100): 76
+Enter marks for Subject 4 (out of 100): 88
+
+📊 --- Result ---
+Total Marks      : 339 out of 400
+Average Percentage: 84.75%
+Grade            : A
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+3. ATM INTERFACE
+
+How to Run:
+
+javac NumberGuessingGame.java
+java NumberGuessingGame
+
+SAMPLE OUTPUT:
+
+=== ATM Menu ===
+1. Withdraw
+2. Deposit
+3. Check Balance
+4. Exit
+Choose an option: 1
+Enter amount to withdraw: ₹500
+✅ Withdrawal successful. ₹500 withdrawn.
+
+=== ATM Menu ===
+1. Withdraw
+2. Deposit
+3. Check Balance
+4. Exit
+Choose an option: 3
+💰 Your current balance is: ₹500.00
+
+=== ATM Menu ===
+1. Withdraw
+2. Deposit
+3. Check Balance
+4. Exit
+Choose an option: 4
+💳 Thank you for using the ATM. Goodbye!
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+4.
+
+
